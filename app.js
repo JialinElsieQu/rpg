@@ -49,26 +49,26 @@ const weapons = [
 
 const monsters = [
   {
-    name: "Kennedy",
-    picture: "kennedy.png",
+    name: "胡巴",
+    picture: "huba.png",
     level: 2,
     health: 15
   },
   {
-    name: "Harold",
-    picture: "harold.png",
+    name: "魔丸",
+    picture: "mowan.png",
     level: 10,
     health: 100
   },
   {
-    name: "Toth",
-    picture: "toth.png",
+    name: "敖丙",
+    picture: "aobing.png",
     level: 50,
     health: 400
   },
   {
-    name: "Walker",
-    picture: "walker.png",
+    name: "我有的是力气",
+    picture: "liqi.png",
     level: 100,
     health: 1000
   }
