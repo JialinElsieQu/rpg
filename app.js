@@ -95,15 +95,15 @@ const locations = {
   },
 
   cave: {
-    buttonText: ["Fight Kennedy", "Go to Castle", "Go to Shop", "Go to Town"],
-    buttonFunctions: [fightKennedy, goCastle, goShop, goTown],
-    text: "You enter the cave. You see Kennedy!",
+    buttonText: ["Fight 胡巴", "Go to Castle", "Go to Shop", "Go to Town"],
+    buttonFunctions: [fight胡巴, goCastle, goShop, goTown],
+    text: "You enter the cave. You see 胡巴!",
     picture: "cave.png"
   },
 
   castle: {
-    buttonText: ["Fight Harold", "Fight Toth", "Fight Walker", "Go to Town"],
-    buttonFunctions: [fightHarold, fightToth, fightWalker, goTown],
+    buttonText: ["Fight 魔丸", "Fight 敖丙", "Fight 我有的是力气", "Go to Town"],
+    buttonFunctions: [fight魔丸, fight敖丙, fight我有的是力气, goTown],
     text: "You enter the castle. You see some monsters!",
     picture: "castle.png"
   },
