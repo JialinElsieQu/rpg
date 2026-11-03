@@ -82,7 +82,7 @@ const locations = {
 
   town: {
     buttonText: ["Go to Shop", "Go to Cave", "Go to Castle", "Fight Boss"],
-    buttonFunctions: [goShop, goCave, goCastle, fightWalker],
+    buttonFunctions: [goShop, goCave, goCastle, fight我有的是力气],
     text: "You are in the town square. What would you like to do?",
     picture: "town.png"
   },
@@ -232,19 +232,19 @@ function buyWeapon() {
 // 9. STARTING A FIGHT
 // ==========================================
 
-function fightKennedy() {
+function fight胡巴() {
   startFight(0);
 }
 
-function fightHarold() {
+function fight魔丸() {
   startFight(1);
 }
 
-function fightToth() {
+function fight敖丙() {
   startFight(2);
 }
 
-function fightWalker() {
+function fight我有的是力气() {
   startFight(3);
 }
 
